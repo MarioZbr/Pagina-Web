@@ -1,0 +1,255 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #00ffcc;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00ffcc;
+}
+
+/* Sección Hero */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #00ffcc;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #00ccaa;
+}
+
+/* Sección de Productos */
+.productos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.productos-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.producto .precio {
+    font-size: 20px;
+    color: #00ffcc;
+    font-weight: bold;
+}
+
+.producto .btn {
+    background-color: #00ffcc;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.producto .btn:hover {
+    background-color: #00ccaa;
+}
+
+/* Sección de Reseñas */
+.reseñas {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #444;
+}
+
+.reseñas h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.reseñas-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reseña {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.reseña p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.reseña .autor {
+    font-size: 14px;
+    color: #00ffcc;
+}
+
+/* Sección de Blog */
+.blog {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.blog h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.blog-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.articulo {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.articulo h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.articulo p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.articulo .btn {
+    background-color: #00ffcc;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.articulo .btn:hover {
+    background-color: #00ccaa;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #00ffcc;
+}
